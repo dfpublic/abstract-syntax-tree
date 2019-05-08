@@ -10,9 +10,6 @@
     "coverage": "nyc npm test",
     "coverage:report": "nyc --reporter=text-lcov npm test > coverage.lcov && codecov"
   },
-  "engines": {
-    "node": ">=10.15.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/buxlabs/abstract-syntax-tree.git"
